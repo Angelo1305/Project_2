@@ -1,4 +1,4 @@
-/* Import Zelda-like font (Google Fonts) */
+
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 body {
@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  font-family: Arial, sans-serif; /* native browser font */
+  font-family: Arial, sans-serif; 
 }
 
 nav a {
@@ -56,7 +56,7 @@ p {
   font-size: 1.2rem;
 }
 
-/* Responsive Layout - Fluid */
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
