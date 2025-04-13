@@ -57,21 +57,20 @@ img {
   border: 0.3rem solid #b8860b;
   border-radius: 0.5rem;
   margin: 1.5rem auto;
-  max-width: 40%;
+  max-width: 35%;
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s ease;
 }
 
-
 img:hover {
   transform: scale(1.03);
 }
 
-/* Zelda logo styling */
 .logo {
-  width: 18rem;
+  max-width: 60%;
+  width: 100%;
   margin: 1.5rem auto;
   animation: zoomIn 1.5s ease forwards;
   border: none;
@@ -105,13 +104,11 @@ p {
   line-height: 1.6;
 }
 
-/* Fixed width layout for resume page */
 .fixed-container {
   max-width: 960px;
   margin: 0 auto;
 }
 
-/* Mobile responsiveness */
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
